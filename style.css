@@ -1,0 +1,39 @@
+body{
+    font-family: 'Spline Sans', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#mission-color{
+    color: hotpink;
+}
+.h1-border{
+    font-size: 40px;
+}
+.side-border{
+    border-left: 2px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5px;
+}
+.display-flex{
+    display: flex;
+    direction: row;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    width: 90%;
+}
+.left-margin{
+    margin-left: 20px;
+
+}
+.paragrapg{
+    width: 90%;
+}

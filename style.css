@@ -60,9 +60,29 @@ span{
 .mission{
     font-size: 30px;
 }
-.display-flex-var{
+.display-flex-var1{
     display: table;
-    background-image: url(picture/shape-2.png);
+    background-color: wheat;
+    background-position: center;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+ 
+}
+.display-flex-var2{
+    display: table;
+    background-color: coral;
+    background-position: center;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+ 
+}
+.display-flex-var3{
+    display: table;
+    background-color: thistle;
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;

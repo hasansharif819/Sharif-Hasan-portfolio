@@ -1,6 +1,7 @@
 body{
     font-family: 'Spline Sans', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
+margin-left: 20px;
 }
 #mission-color{
     color: hotpink;
@@ -15,12 +16,15 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     margin-right: 5px;
 }
 .link-button{
+    color: whitesmoke;
+    font-weight: 700px;
     text-decoration: none;
     text-align: center;
     background-image: linear-gradient(hotpink, yellow);
     border-radius: 5px;
     background-position: center;
     padding: 5px;
+    box-shadow: 5px 5px tomato;
 }
 .half-width{
     width: 50%;
@@ -50,7 +54,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 #scroll{
     margin-top: 20px;
 }
-span{
+.mission-color{
     color: sandybrown;
 }
 #mission{
@@ -107,4 +111,32 @@ span{
     display: flex;
     margin: 10px;
     padding: 5px;
+}
+.image1{
+    height: 300px;
+    width: 300px;
+    width:70%;
+    margin-left: 20px;
+}
+#half-width{
+    width: 70%;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.develop-limits{
+    font-size: 30px;
+}
+#backimg{
+    background-image: url(picture/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+#backimg1{
+    background-image: url(picture/shape-1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    padding-bottom: 50px;
 }
